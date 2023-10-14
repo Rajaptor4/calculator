@@ -25,6 +25,7 @@ jobs:
         pip install Werkzeug
         pip install pika
         pip install Flask-SQLAlchemy
+        pip install prometheus-client
     - name: Run Tests
       run: |
         cd src
