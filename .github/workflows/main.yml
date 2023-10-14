@@ -24,6 +24,7 @@ jobs:
         pip install gunicorn
         pip install Werkzeug
         pip install pika
+        pip install Flask-SQLAlchemy
     - name: Run Tests
       run: |
         cd src
