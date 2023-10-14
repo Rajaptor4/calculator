@@ -26,5 +26,4 @@ jobs:
         pip install pika
     - name: Run Tests
       run: |
-        cd src
-        python -m unittest test_app.py
+        python -m unittest ./test_app.py
